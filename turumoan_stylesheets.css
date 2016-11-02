@@ -1,0 +1,123 @@
+/* navbar start */
+.navbar-back{
+    margin: 30px 0px 30px 0px;
+    /*background-color: #345995;*/
+    padding: 0px 40px 0px 40px;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    height: 135px;
+}
+
+.navbars{ /* should be set vrtical center*/
+    width:100%;
+    height: 100px;
+}
+
+.nav-item{
+    font-size: 14px;
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #6eaccf;
+    margin: 10px;
+    height: 90px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.nav-img{
+    height: 80px;
+}
+
+/* navbar end */
+
+.row{
+    margin: 40px 0px 0px 0px;
+}
+.pic1{
+    float:right;
+    width:100%;
+    height:900px;
+    overflow: hidden;
+}
+
+.how-step{
+    padding: 20px;
+    text-align: center;
+}
+
+.how-step-context{
+    text-align: left;
+    border-style:solid;
+    border-color: #6eaccf;
+    border-width: 1px;
+    font-size: 1em;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    padding: 5px;
+}
+
+/*colors*/
+
+.main-blue{
+    background: #6eaccf;
+}
+/*
+.yellow{
+    background: #F2C14E;
+}
+.blue{
+    background: #345995;
+}
+.peach{
+    background: #E43F6F;
+}
+.orange{
+    background: #F78154;
+}
+.green{
+    background: #4D9078;
+}
+.darkgreen{
+    background: #087F8C;
+}
+.lightblue{
+    background: #D9FFF8;
+}
+.grayblue{
+    background: #1C7293;
+}
+.lightgreen{
+    background: #C7FFDA;
+}
+.palm{
+    background: #616300;
+}
+.dust{
+    background: #93791C;
+}
+.mud{
+    background: #8C5708;
+}*/
+.show-box{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+/*.show-box:hover{
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
